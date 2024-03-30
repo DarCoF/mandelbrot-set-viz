@@ -1,0 +1,3 @@
+C:/Users/dario/Desktop/Video-18/fractal_viz/nibbles-Homework/build/CMakeFiles/fractal_shader.dir
+C:/Users/dario/Desktop/Video-18/fractal_viz/nibbles-Homework/build/CMakeFiles/edit_cache.dir
+C:/Users/dario/Desktop/Video-18/fractal_viz/nibbles-Homework/build/CMakeFiles/rebuild_cache.dir

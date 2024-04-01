@@ -44,10 +44,10 @@ int main() {
     glGenBuffers(1, &VBO);
     glGenBuffers(1, &EBO);
     float vertices[] = {
-            -1.0f, -1.0f, 0.0f, 0.0f, // Bottom-left
-            1.0f, -1.0f, 1.0f, 0.0f, // Bottom-right
-            -1.0f, 1.0f, 0.0f, 1.0f, // Top-left
-            1.0f, 1.0f, 1.0f, 1.0f, // Top-right
+            -1.0, -1.0, 0.0, 0.0, // Bottom-left
+            1.0, -1.0, 1.0, 0.0, // Bottom-right
+            -1.0, 1.0, 0.0, 1.0, // Top-left
+            1.0, 1.0, 1.0, 1.0, // Top-right
     };
     unsigned int indices[] = {0, 1, 2, 1, 2, 3};
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
@@ -70,14 +70,14 @@ int main() {
     glBindVertexArray(0);
     
     // ----------- Load shader program
-    GLuint shaderProgram = utils_shaders::LoadShaders("vertex_shader_d.vert", "fragment_shader_d.frag");
+    GLuint shaderProgram = utils_shaders::LoadShaders("vertex_shader.vert", "fragment_shader.frag");
     if (shaderProgram == 0) {
         return -1;
     }
     glUseProgram(shaderProgram); // Use the shader program
 
     // ------------ create COMPLEX VALUES TEXTURE ----------------------------
-    float real_min = -2.0f, real_max = 1.0f, imag_min = -1.5f, imag_max = 1.5f;
+    float real_min = -2.0, real_max = 1.0, imag_min = -1.5, imag_max = 1.5;
     std::vector<float> complex_set = gen_complex_set_2_shader(
             width, height, real_min, real_max, imag_min, imag_max
     );

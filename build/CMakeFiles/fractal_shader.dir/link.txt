@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\fractal_shader.dir/objects.a
-C:\mingw64\bin\ar.exe qc CMakeFiles\fractal_shader.dir/objects.a @CMakeFiles\fractal_shader.dir\objects1.rsp
-C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\fractal_shader.dir/objects.a -Wl,--no-whole-archive -o fractal_shader.exe -Wl,--out-implib,libfractal_shader.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\fractal_shader.dir\linkLibs.rsp

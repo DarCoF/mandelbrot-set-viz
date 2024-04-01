@@ -1,8 +1,0 @@
-[
-{
-  "directory": "C:/Users/dario/Desktop/Video-18/fractal_viz/nibbles-Homework/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/fractal_shader.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\fractal_shader.dir\\src\\main_opengl.cpp.obj -c C:\\Users\\dario\\Desktop\\Video-18\\fractal_viz\\nibbles-Homework\\src\\main_opengl.cpp",
-  "file": "C:/Users/dario/Desktop/Video-18/fractal_viz/nibbles-Homework/src/main_opengl.cpp",
-  "output": "CMakeFiles/fractal_shader.dir/src/main_opengl.cpp.obj"
-}
-]

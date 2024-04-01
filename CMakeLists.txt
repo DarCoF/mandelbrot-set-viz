@@ -6,7 +6,8 @@ set(CMAKE_CXX_STANDARD 20)
 # Define the executable
 add_executable(
     fractal_shader
-    src/main_opengl.cpp
+    #src/main_opengl.cpp
+    src/main_opengl_d.cpp
     headers/event_manager.hpp
     headers/utils_shader.hpp
     headers/utils.hpp)
